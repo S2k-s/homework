@@ -1,0 +1,27 @@
+.A1 {
+    font-family: "Montserrat", "Arial", sans-serif;
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: 300;
+}
+
+.A2 {
+    text-decoration: line-through;
+}
+
+.A3 {
+    text-align: center;
+}
+
+.A4 {
+    text-decoration: overline;
+    text-decoration-style: wavy;
+    color: rgb(115, 41, 184);
+    word-spacing: 30px;
+}
+
+.A5 {
+    text-decoration: underline;
+    text-decoration-style: double;
+    letter-spacing: 5px;
+}
