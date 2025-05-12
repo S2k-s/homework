@@ -37,11 +37,12 @@
     flex-grow: 1;
 }
 
-.main__about ,
-.main__program {
+.main__about {
     padding: 140px 0;
 }
 
+
+.main__program,
 .main__gallery {
     padding-bottom: 140px;
 }

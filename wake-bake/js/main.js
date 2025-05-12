@@ -121,11 +121,12 @@
 
     const swiper = new Swiper('.gallery__slider', {
 
-        spaceBetween: 32,
-        slidesPerView: 4,
+        spaceBetween: 15,
+        slidesPerView: 1.4,
 
         pagination: {
             el: '.gallery__pagination',
+            type: 'fraction'
         },
 
         navigation: {
@@ -133,9 +134,18 @@
             nextEl: '.gallery__next',
         },
 
-        
+        breakpoints: {
+            601: {
+                slidesPerView: 3,
+            },
+            801: {
+                spaceBetween: 32,
+            },
+            1101: {
+                slidesPerView: 4,
+            }
+        }
     });
-
 
 })()
 
