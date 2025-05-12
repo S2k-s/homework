@@ -104,18 +104,38 @@
                     }
                 });
             });
-            
+
             accordionItem.classList.toggle('accordion-list__item--opened')
-            
+
             if (accordionItem.classList.contains('accordion-list__item--opened')) {
                 accordionContent.style.maxHeight = accordionContent.scrollHeight + 'px'
             } else {
                 accordionContent.style.maxHeight = null
             }
-            
+
         })
-        
+
     })
+
+    // Слайдер - галерея
+
+    const swiper = new Swiper('.gallery__slider', {
+
+        spaceBetween: 32,
+        slidesPerView: 4,
+
+        pagination: {
+            el: '.gallery__pagination',
+        },
+
+        navigation: {
+            prevEl: '.gallery__prev',
+            nextEl: '.gallery__next',
+        },
+
+        
+    });
+
 
 })()
 
