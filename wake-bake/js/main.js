@@ -147,6 +147,38 @@
         }
     });
 
+    // Слайдер - отзывы
+
+    const testimonials = new Swiper('.testimonials__slider', {
+
+        spaceBetween: 0,
+        slidesPerView: 1.,
+        centeredSlides: true,
+
+        navigation: {
+            prevEl: '.testimonials__prev',
+            nextEl: '.testimonials__next',
+        },
+
+        scrollbar: {
+            el: '.swiper-scrollbar',
+            draggable: true,
+        },
+
+        breakpoints: {
+            701 : {
+        slidesPerView: 1.2,
+            },
+            901 : {
+        slidesPerView: 1.5,
+            },
+            1201 : {
+        slidesPerView: 2.1,
+            }
+        },
+    });
+
+
 })()
 
 
