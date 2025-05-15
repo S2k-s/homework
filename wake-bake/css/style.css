@@ -66,8 +66,7 @@
     position: absolute;
     inset: 5px;
     border-radius: 50%;
-    border: 1px solid #CEAAD0;
-
+    border: 1px solid var(--accent-color-2);
     opacity: 0;
     transition: var(--transition);
 }
@@ -211,7 +210,7 @@
 
 .program__price-text {
     line-height: 1.6;
-    color: rgb(206, 170, 208);
+    color: var(--accent-color-2);
     text-transform: uppercase;
 }
 
@@ -366,7 +365,7 @@
 }
 
 .accordion-content__title {
-    color: rgb(206, 170, 208);
+    color: var(--accent-color-2);
     line-height: 1.6;
     text-transform: uppercase;
     margin-bottom: 20px;
@@ -386,7 +385,7 @@
 .accordion-content__icon {
     width: 24px;
     height: 24px;
-    border: 1px solid rgb(206, 170, 208);
+    border: 1px solid var(--accent-color-2);
     border-radius: 50%;
     display: inline-flex;
     align-items: center;
@@ -673,7 +672,7 @@
 }
 
 .testimonials__student-inst {
-    color: #CEAAD0;
+    color: var(--accent-color-2);
 }
 
 .testimonials__quote {
@@ -701,6 +700,138 @@
 
 .testimonials__scrollbar .swiper-scrollbar-drag {
     background: var(--accent-color);
+}
+
+/* =============================================================== */
+
+
+.contact {
+    background: url("../img/decor/bg-contact.png") 50% 0 / cover no-repeat;
+    padding: 140px 0;
+}
+
+.contact__inner {
+    display: flex;
+    align-items: end;
+    gap: 84px;
+    position: relative;
+}
+
+.contact__inner::before {
+    content: url("../img/decor/berries.png");
+    position: absolute;
+    top: -4%;
+    left: 0;
+}
+.contact__inner::after {
+    content: url("../img/decor/berries-2.png");
+    position: absolute;
+    top: 4%;
+    right: 0;
+}
+.contact__img img {
+    width: 100%;
+    filter: drop-shadow(0px 4px 30px rgba(198, 176, 161, 03));
+}
+
+.contact__body {
+    max-width: 420px;
+}
+
+.contact__title {
+    margin-bottom: 20px;
+}
+
+.contact__text {
+    margin-bottom: 40px;
+}
+
+.contact__form {}
+
+.contact__ladel {
+    margin-bottom: 10px;
+}
+
+.contact__input {
+    background: #00000000;
+    border: 1px solid rgb(172, 144, 122);
+    border-radius: 100px;
+    padding: 19px 42px 19px 28px;
+    width: 100%;
+    font-size: 16px;
+    transition: var(--transition);
+    margin-bottom: 20px;
+}
+
+.contact__input:hover {
+    border-color: var(--accent-color);
+
+}
+
+.contact__input::placeholder {
+    color: #AC907A;
+    transition: var(--transition);
+}
+
+.contact__input:hover::placeholder {
+    color: var(--accent-color);
+}
+
+.contact__check-label {
+    display: flex;
+    gap: 5px;
+    max-width: 288px;
+}
+
+.contact__check-label {
+    display: flex;
+    gap: 5px;
+    max-width: 288px;
+    font-size: 13px;
+    margin-bottom: 20px;
+    align-items: start;
+}
+
+.contact__check-label a {
+    text-decoration: underline;
+    transition: var(--transition);
+}
+
+.contact__check-label a:hover {
+    color: var(--accent-color);
+}
+
+.contact__checkbox {
+    appearance: none;
+    width: 16px;
+    height: 16px;
+    border-radius: 4px;
+    border: 1.5px solid var(--input-color);
+    flex-shrink: 0;
+    cursor: pointer;
+    transition: var(--transition);
+    position: relative;
+}
+
+.contact__checkbox::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background: url("../img/icons/check.svg") 50% 50% no-repeat;
+    opacity: 0;
+    transition: var(--transition);
+}
+
+.contact__checkbox:hover {
+    border: 1.5px solid var(--accent-color);
+}
+
+.contact__checkbox:checked {
+    background: var(--accent-color);
+    border: 1.5px solid var(--accent-color);
+}
+.contact__checkbox:checked::before {
+    opacity: 1;
 }
 
 
@@ -732,6 +863,18 @@
 
     .tab-controls {
         flex-wrap: wrap;
+    }
+
+    /* =============== */
+
+    .contact__inner {
+        align-items: center;
+        gap: 30px;
+    }
+
+    .contact__inner::after {
+        top: -20%;
+        right: 0;
     }
 
     /* =============== */
@@ -844,6 +987,16 @@
 
     /* ============== */
 
+    .contact__inner {
+        justify-content: center;
+    }
+
+    .contact__img {
+        display: none;
+    }
+
+    /* ============== */
+
     .footer__inner {
         gap: 50px 15px;
         justify-content: space-around;
@@ -941,6 +1094,12 @@
 
     .testimonials__nav {
         align-self: end;
+    }
+
+    /* ======================== */
+
+    .contact__inner::before {
+        display: none;
     }
 
 }
@@ -1132,6 +1291,21 @@
         align-items: center;
         flex-direction: column;
         text-align: center;
+    }
+
+    /*====================  */
+
+    .contact {
+        padding-bottom: 80px;
+    }
+
+    .contact__title,
+    .contact__text {
+        text-align: center;
+    }
+
+    .contact__text {
+        margin-bottom: 30px;
     }
 
 }
