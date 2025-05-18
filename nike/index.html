@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nike</title>
+
+    <link rel="stylesheet" href="css/swiper-bundle.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body class="body">
+    <div class="wrapper">
+        <header class="header">
+            <div class="header__top">
+                <div class="header__top-inner">
+                    <div class="burger-icon">
+                        <span></span>
+                    </div>
+                    <nav class="nav">
+                        <ul class="nav__list">
+                            <li class="nav__item">
+                                <a class="nav__link" href="#">
+                                    New Arrival
+                                </a>
+                            </li>
+                            <li class="nav__item">
+                                <a class="nav__link" href="#">
+                                    Men
+                                </a>
+                            </li>
+                            <li class="nav__item">
+                                <a class="nav__link" href="#">
+                                    Women
+                                </a>
+                            </li>
+                            <li class="nav__item">
+                                <a class="nav__link" href="#">
+                                    Kids
+                                </a>
+                            </li>
+                        </ul>
+                    </nav>
+                    <a class="header__logo" href="/">
+                        <img src="img/icons/logos/nike-mini.svg" alt="">
+                    </a>
+                    <ul class="user-menu">
+                        <li class="user-menu__item">
+                            <label class="user-menu__label">
+                                <input class="user-menu__search" type="text" placeholder="search...">
+                            </label>
+                            <a class="user-menu__link user-menu__link--search" href="#">
+                                <svg width="24.000000" height="24.000000" viewBox="0 0 24 24" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                                    <desc>
+                                        Created with Pixso.
+                                    </desc>
+                                    <defs>
+                                        <clipPath id="clip31_53">
+                                            <rect id="Search-1" rx="0.000000" width="23.000000" height="23.000000"
+                                                transform="translate(0.500000 0.500000)" fill="white"
+                                                fill-opacity="0" />
+                                        </clipPath>
+                                    </defs>
+                                    <rect id="Search-2" rx="0.000000" width="23.000000" height="23.000000"
+                                        transform="translate(0.500000 0.500000)" fill="#FFFFFF" fill-opacity="0" />
+                                    <g clip-path="url(#clip31_53)">
+                                        <path id="Vector"
+                                            d="M15.5 14L14.71 14L14.43 13.73C15.41 12.59 16 11.11 16 9.5C16 5.91 13.09 3 9.5 3C5.9 3 3 5.91 3 9.5C3 13.09 5.9 16 9.5 16C11.11 16 12.59 15.41 13.73 14.43L14 14.71L14 15.5L19 20.49L20.49 19L15.5 14ZM9.5 14C7.01 14 5 11.99 5 9.5C5 7.01 7.01 5 9.5 5C11.99 5 14 7.01 14 9.5C14 11.99 11.99 14 9.5 14Z"
+                                            fill="#FFFFFF" fill-opacity="1.000000" fill-rule="nonzero" />
+                                    </g>
+                                </svg>
+                            </a>
+                        </li>
+                        <li class="user-menu__item">
+                            <a class="user-menu__link user-menu__link--account" href="#">
+                                <svg width="24.000000" height="24.000000" viewBox="0 0 24 24" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                                    <desc>
+                                        Created with Pixso.
+                                    </desc>
+                                    <defs>
+                                        <clipPath id="clip31_50">
+                                            <rect id="Account-1" rx="0.000000" width="23.000000" height="23.000000"
+                                                transform="translate(0.500000 0.500000)" fill="white"
+                                                fill-opacity="0" />
+                                        </clipPath>
+                                    </defs>
+                                    <rect id="Account-2" rx="0.000000" width="23.000000" height="23.000000"
+                                        transform="translate(0.500000 0.500000)" fill="#FFFFFF" fill-opacity="0" />
+                                    <g clip-path="url(#clip31_50)">
+                                        <path id="Vector"
+                                            d="M12 12C14.21 12 16 10.21 16 8C16 5.79 14.21 4 12 4C9.78 4 8 5.79 8 8C8 10.21 9.78 12 12 12ZM12 6C13.1 6 14 6.89 14 8C14 9.1 13.1 10 12 10C10.9 10 10 9.1 10 8C10 6.89 10.9 6 12 6ZM12 14C9.33 14 4 15.34 4 18L4 20L20 20L20 18C20 15.34 14.67 14 12 14ZM6 18C6.21 17.28 9.31 16 12 16C14.7 16 17.79 17.29 18 18L6 18Z"
+                                            fill="#FFFFFF" fill-opacity="1.000000" fill-rule="nonzero" />
+                                    </g>
+                                </svg>
+                            </a>
+                        </li>
+                        <li class="user-menu__item">
+                            <a class="user-menu__link" href="#">
+                                <svg width="24.000000" height="24.000000" viewBox="0 0 24 24" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                                    <desc>
+                                        Created with Pixso.
+                                    </desc>
+                                    <defs />
+                                    <path id="Vector"
+                                        d="M18 6L16 6C16 3.79 14.21 2 12 2C9.78 2 8 3.79 8 6L6 6C4.9 6 4 6.89 4 8L4 20C4 21.1 4.9 22 6 22L18 22C19.1 22 20 21.1 20 20L20 8C20 6.89 19.1 6 18 6ZM12 4C13.1 4 14 4.89 14 6L10 6C10 4.89 10.9 4 12 4ZM18 20L6 20L6 8L8 8L8 10C8 10.55 8.45 11 9 11C9.54 11 10 10.55 10 10L10 8L14 8L14 10C14 10.55 14.45 11 15 11C15.55 11 16 10.55 16 10L16 8L18 8L18 20Z"
+                                        fill="#FFFFFF" fill-opacity="1.000000" fill-rule="nonzero" />
+                                </svg>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <section class="header__hero hero">
+                <div class="hero__inner">
+                    <div class="hero__content">
+                        <div class="hero__images">
+                            <div class="hero__rainbow">
+                                <img src="img/pictures/rainbow.png" alt="">
+                            </div>
+                            <div class="hero__black-sneaker">
+                                <img src="img/sneakers/1.png" alt="sneaker">
+                                <a class="hero__plus-one">
+                                    <svg width="16.000000" height="16.000000" viewBox="0 0 16 16" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                                        <desc>
+                                            Created with Pixso.
+                                        </desc>
+                                        <defs />
+                                        <path id="Vector"
+                                            d="M15 7L9 7L9 1C9 0.73 8.89 0.48 8.7 0.29C8.51 0.1 8.26 0 8 0C7.73 0 7.48 0.1 7.29 0.29C7.1 0.48 7 0.73 7 1L7 7L1 7C0.73 7 0.48 7.1 0.29 7.29C0.1 7.48 0 7.73 0 8C0 8.26 0.1 8.51 0.29 8.7C0.48 8.89 0.73 9 1 9L7 9L7 15C7 15.26 7.1 15.51 7.29 15.7C7.48 15.89 7.73 16 8 16C8.26 16 8.51 15.89 8.7 15.7C8.89 15.51 9 15.26 9 15L9 9L15 9C15.26 9 15.51 8.89 15.7 8.7C15.89 8.51 16 8.26 16 8C16 7.73 15.89 7.48 15.7 7.29C15.51 7.1 15.26 7 15 7Z"
+                                            fill="#00112C" fill-opacity="1.000000" fill-rule="nonzero" />
+                                    </svg>
+                                </a>
+                                <a class="hero__plus-two">
+                                    <svg width="16.000000" height="16.000000" viewBox="0 0 16 16" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                                        <desc>
+                                            Created with Pixso.
+                                        </desc>
+                                        <defs />
+                                        <path id="Vector"
+                                            d="M15 7L9 7L9 1C9 0.73 8.89 0.48 8.7 0.29C8.51 0.1 8.26 0 8 0C7.73 0 7.48 0.1 7.29 0.29C7.1 0.48 7 0.73 7 1L7 7L1 7C0.73 7 0.48 7.1 0.29 7.29C0.1 7.48 0 7.73 0 8C0 8.26 0.1 8.51 0.29 8.7C0.48 8.89 0.73 9 1 9L7 9L7 15C7 15.26 7.1 15.51 7.29 15.7C7.48 15.89 7.73 16 8 16C8.26 16 8.51 15.89 8.7 15.7C8.89 15.51 9 15.26 9 15L9 9L15 9C15.26 9 15.51 8.89 15.7 8.7C15.89 8.51 16 8.26 16 8C16 7.73 15.89 7.48 15.7 7.29C15.51 7.1 15.26 7 15 7Z"
+                                            fill="#00112C" fill-opacity="1.000000" fill-rule="nonzero" />
+                                    </svg>
+
+                                </a>
+                                <div class="hero__line">
+                                    <svg width="562" height="39" viewBox="0 0 562 39" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M1.16738 0.864815C0.907164 0.772376 0.621285 0.908382 0.528847 1.16859C0.436408 1.4288 0.572414 1.71468 0.832625 1.80712L1.16738 0.864815ZM0.832625 1.80712C77.8671 29.1733 297.686 67.445 561.121 1.82114L560.879 0.850795C297.636 66.427 78.0172 28.1653 1.16738 0.864815L0.832625 1.80712Z"
+                                            fill="url(#paint0_linear_34_997)" />
+                                        <defs>
+                                            <linearGradient id="paint0_linear_34_997" x1="281" y1="1.33597" x2="281"
+                                                y2="37.5571" gradientUnits="userSpaceOnUse">
+                                                <stop stop-color="white" stop-opacity="0" />
+                                                <stop offset="1" stop-color="white" />
+                                            </linearGradient>
+                                        </defs>
+                                    </svg>
+                                </div>
+                                <div class="hero__degree">
+                                    <img src="img/icons/ect/degree.svg" alt="">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="hero__info">
+                            <h1 class="hero__title title">
+                                AIR JORDAN 1 RETRO HIGH OG
+                            </h1>
+                            <div class="hero__price">
+                                $275
+                                <div class="hero__size-selector">
+                                    <span>size</span>
+                                    <a class="hero__size-button" id="sizeBtn">
+                                        41 <img class="hero__size-img" src="img/icons/ect/arrow-down.svg" alt="">
+                                    </a>
+                                    <div class="hero__dropdown" id="dropdown">
+                                        <div>42</div>
+                                        <div>41</div>
+                                        <div>40</div>
+                                        <div>39</div>
+                                    </div>
+                                </div>
+                                <a class="hero__shop" href="#">
+                                    <img src="img/icons/ect/bag.svg" alt="">
+                                </a>
+                            </div>
+                            <a class="hero__button button" href="#" type="button">
+                                More Details
+                                <img class="button__img" src="img/icons/ect/arrow-1.svg" alt="">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="slider">
+                        <div class="slider__nav">
+                            <div class="slider__prev">
+                                <svg width="32.000000" height="32.000000" viewBox="0 0 32 32" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                                    <desc>
+                                        Created with Pixso.
+                                    </desc>
+                                    <defs />
+                                    <rect id="left arrow / 24 / Outline" rx="0.000000" width="31.000000"
+                                        height="31.000000" transform="translate(0.500000 0.500000)" fill="#FFFFFF"
+                                        fill-opacity="0" />
+                                    <path id="Vector"
+                                        d="M15.05 16L19.77 11.28C20.02 11.03 20.16 10.69 20.16 10.34C20.16 9.98 20.02 9.64 19.77 9.4C19.64 9.27 19.5 9.17 19.33 9.1C19.17 9.04 19 9 18.82 9C18.65 9 18.47 9.04 18.31 9.1C18.15 9.17 18 9.27 17.87 9.4L12.22 15.05C12.1 15.17 12 15.32 11.93 15.48C11.86 15.64 11.83 15.82 11.83 16C11.83 16.17 11.86 16.35 11.93 16.51C12 16.67 12.1 16.82 12.22 16.94L17.87 22.66C18 22.79 18.15 22.88 18.31 22.95C18.47 23.02 18.65 23.05 18.82 23.05C19 23.05 19.17 23.02 19.33 22.95C19.5 22.88 19.64 22.79 19.77 22.66C20.02 22.41 20.16 22.07 20.16 21.72C20.16 21.37 20.02 21.03 19.77 20.78L15.05 16Z"
+                                        fill="#FFFFFF" fill-opacity="1.000000" fill-rule="nonzero" />
+                                </svg>
+                                Previous
+                            </div>
+                            <div class="slider__next">
+                                Next
+                                <svg width="32.000000" height="32.000000" viewBox="0 0 32 32" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                                    <desc>
+                                        Created with Pixso.
+                                    </desc>
+                                    <defs />
+                                    <rect id="left arrow / 24 / Outline" rx="0.000000" width="31.000000"
+                                        height="31.000000"
+                                        transform="translate(32.500000 32.500000) rotate(-179.999985)" fill="#FFFFFF"
+                                        fill-opacity="0" />
+                                    <path id="Vector"
+                                        d="M16.94 16L12.22 20.72C11.97 20.96 11.83 21.3 11.83 21.66C11.83 22.01 11.97 22.35 12.22 22.6C12.35 22.72 12.49 22.82 12.66 22.89C12.82 22.95 12.99 22.99 13.17 22.99C13.34 22.99 13.52 22.95 13.68 22.89C13.84 22.82 13.99 22.72 14.12 22.6L19.77 16.94C19.89 16.82 19.99 16.67 20.06 16.51C20.13 16.35 20.16 16.17 20.16 16C20.16 15.82 20.13 15.64 20.06 15.48C19.99 15.32 19.89 15.17 19.77 15.05L14.12 9.33C13.99 9.2 13.84 9.11 13.68 9.04C13.52 8.97 13.34 8.94 13.17 8.94C12.99 8.94 12.82 8.97 12.66 9.04C12.49 9.11 12.35 9.2 12.22 9.33C11.97 9.58 11.83 9.92 11.83 10.27C11.83 10.62 11.97 10.96 12.22 11.21L16.94 16Z"
+                                        fill="#FFFFFF" fill-opacity="1.000000" fill-rule="nonzero" />
+                                </svg>
+                            </div>
+                        </div>
+                        <div class="slider__container swiper-container swiper">
+                            <div class="slider-wrapper swiper-wrapper">
+                                <div class="slider__slide swiper-slide">
+                                    <img class="slider__img" src="img/sneakers/2.png" alt="">
+                                    <p>NIKE DYNAMO GO SE</p>
+                                </div>
+                                <div class="slider__slide swiper-slide">
+                                    <img class="slider__img" src="img/sneakers/3.png" alt="">
+                                    <p>NIKE COSMIC UNITY 2</p>
+                                </div>
+                                <div class="slider__slide swiper-slide">
+                                    <img class="slider__img" src="img/sneakers/4.png" alt="">
+                                    <p>NIKE SB DUNK HIGH</p>
+                                </div>
+                                <div class="slider__slide swiper-slide">
+                                    <img class="slider__img" src="img/sneakers/2.png" alt="">
+                                    <p>NIKE DYNAMO GO SE</p>
+                                </div>
+                                <div class="slider__slide swiper-slide">
+                                    <img class="slider__img" src="img/sneakers/3.png" alt="">
+                                    <p>NIKE COSMIC UNITY 2</p>
+                                </div>
+                                <div class="slider__slide swiper-slide">
+                                    <img class="slider__img" src="img/sneakers/4.png" alt="">
+                                    <p>NIKE SB DUNK HIGH</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </section>
+        </header>
+        <aside class="sidebar">
+            <br>
+            <nav class="nav">
+                <ul class="nav__list">
+                    <li class="nav__item">
+                        <a class="nav__link" href="#">
+                            New Arrival
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a class="nav__link" href="#">
+                            Men
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a class="nav__link" href="#">
+                            Women
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a class="nav__link" href="#">
+                            Kids
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+            <ul class="sidebar__list">
+                <li class="sidebfr__item">
+                    <a class="sidebar__link" href="#">Profile</a>
+                </li>
+                <li class="sidebfr__item">
+                    <a class="sidebar__link" href="#">Profile</a>
+                </li>
+                <li class="sidebfr__item">
+                    <a class="sidebar__link" href="#">Profile</a>
+                </li>
+                <li class="sidebfr__item">
+                    <a class="sidebar__link" href="#">Profile</a>
+                </li>
+            </ul>
+        </aside>
+        <main class="main">
+        </main>
+        <footer class="footer">
+        </footer>
+    </div>
+
+    <div class="modal modal-account">
+        <div class="modal__window">
+            <a class="modal__cancel modal-account__cancel" href="#">
+                <svg width="24.000000" height="24.000000" viewBox="0 0 24 24" fill="none"
+                    xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                    <desc>
+                        Created with Pixso.
+                    </desc>
+                    <defs>
+                        <clipPath id="clip41_441">
+                            <rect id="cancel" rx="11.250000" width="22.500000" height="22.500000"
+                                transform="translate(0.750000 0.750000)" fill="white" fill-opacity="0" />
+                        </clipPath>
+                    </defs>
+                    <rect id="cancel" rx="11.250000" width="22.500000" height="22.500000"
+                        transform="translate(0.750000 0.750000)" fill="#FFFFFF" fill-opacity="0" />
+                    <g clip-path="url(#clip41_441)">
+                        <path id="Vector" d="M6.75 17.24L12 12L17.24 17.24M17.24 6.75L12 12L6.75 6.75" stroke="#E1D9E1"
+                            stroke-opacity="1.000000" stroke-width="1.500000" stroke-linejoin="round"
+                            stroke-linecap="round" />
+                    </g>
+                    <rect id="cancel" rx="11.250000" width="22.500000" height="22.500000"
+                        transform="translate(0.750000 0.750000)" stroke="#E1D9E1" stroke-opacity="1.000000"
+                        stroke-width="1.500000" />
+                </svg>
+            </a>
+            <div class="moda__logo">
+            </div>
+            <h3 class="modal__title">
+                Enter your email to join us or sing in.
+            </h3>
+            <p class="modal__text">
+                Kyrgyzstan
+                <a href="#">Change</a>
+            </p>
+            <div class="modal__form">
+                <label class="modal__form-label field">
+                    <input class=" field__input" type="email" placeholder="Email*">
+                    <span>Введите email</span>
+                </label>
+                <p class="modal__warning">
+                    By continuing, I agree to Nike's <a href="#">Privacy Policy.</a> and <a href="#">Terms of Use.</a>
+                </p>
+                <button class="modal__button" type="submit">
+                    Continue
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/swiper-bundle.min.js"></script>
+    <script src="js/main.js"></script>
+
+</body>
+
+</html>
