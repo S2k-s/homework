@@ -1,109 +1,139 @@
 @font-face {
-    font-family: 'Jost';
-    src: local('Jost Bold Italic'), local('Jost-BoldItalic'),
-        url('../fonts/BoldItalic.woff2') format('woff2'),
-        url('../fonts/BoldItalic.woff') format('woff');
-    font-weight: bold;
-    font-style: italic;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: 'Jost';
-    src: local('Jost Light'), local('Jost-Light'),
-        url('../fonts/Light.woff2') format('woff2'),
-        url('../fonts/Light.woff') format('woff');
-    font-weight: 300;
-    font-style: normal;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: 'Jost';
-    src: local('Jost Bold'), local('Jost-Bold'),
-        url('../fonts/Bold.woff2') format('woff2'),
-        url('../fonts/Bold.woff') format('woff');
+    font-family: 'Work Sans';
+    src: local('Work Sans ExtraBold'), local('WorkSans-ExtraBold'),
+        url('../fonts/WorkSans-ExtraBold.woff2') format('woff2'),
+        url('../fonts/WorkSans-ExtraBold.woff') format('woff');
     font-weight: bold;
     font-style: normal;
     font-display: swap;
 }
 
 @font-face {
-    font-family: 'Jost';
-    src: local('Jost Black Italic'), local('Jost-BlackItalic'),
-        url('../../fonts/BlackItalic.woff2') format('woff2'),
-        url('../../fonts/BlackItalic.woff') format('woff');
-    font-weight: 900;
-    font-style: italic;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: 'Jost';
-    src: local('Jost Black'), local('Jost-Black'),
-        url('../../fonts/Black.woff2') format('woff2'),
-        url('../../fonts/Black.woff') format('woff');
+    font-family: 'Work Sans';
+    src: local('Work Sans Black'), local('WorkSans-Black'),
+        url('../fonts/WorkSans-Black.woff2') format('woff2'),
+        url('../fonts/WorkSans-Black.woff') format('woff');
     font-weight: 900;
     font-style: normal;
     font-display: swap;
 }
 
 @font-face {
-    font-family: 'Jost';
-    src: local('Jost Light Italic'), local('Jost-LightItalic'),
-        url('../../fonts/LightItalic.woff2') format('woff2'),
-        url('../../fonts/LightItalic.woff') format('woff');
+    font-family: 'Work Sans';
+    src: local('Work Sans Light'), local('WorkSans-Light'),
+        url('../fonts/WorkSans-Light.woff2') format('woff2'),
+        url('../fonts/WorkSans-Light.woff') format('woff');
     font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Work Sans';
+    src: local('Work Sans Italic'), local('WorkSans-Italic'),
+        url('../fonts/WorkSans-Italic.woff2') format('woff2'),
+        url('../fonts/WorkSans-Italic.woff') format('woff');
+    font-weight: normal;
     font-style: italic;
     font-display: swap;
 }
 
 @font-face {
-    font-family: 'Jost';
-    src: local('Jost ExtraBold Italic'), local('Jost-ExtraBoldItalic'),
-        url('../fonts/ExtraBoldItalic.woff2') format('woff2'),
-        url('../fonts/ExtraBoldItalic.woff') format('woff');
+    font-family: 'Work Sans';
+    src: local('Work Sans Bold Italic'), local('WorkSans-BoldItalic'),
+        url('../fonts/WorkSans-BoldItalic.woff2') format('woff2'),
+        url('../fonts/WorkSans-BoldItalic.woff') format('woff');
     font-weight: bold;
     font-style: italic;
     font-display: swap;
 }
 
 @font-face {
-    font-family: 'Jost';
-    src: local('Jost SemiBold'), local('Jost-SemiBold'),
-        url('../fonts/SemiBold.woff2') format('woff2'),
-        url('../fonts/SemiBold.woff') format('woff');
-    font-weight: 600;
-    font-style: normal;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: 'Jost';
-    src: local('Jost Medium'), local('Jost-Medium'),
-        url('../fonts/Medium.woff2') format('woff2'),
-        url('../fonts/Medium.woff') format('woff');
+    font-family: 'Work Sans';
+    src: local('Work Sans Medium'), local('WorkSans-Medium'),
+        url('../fonts/WorkSans-Medium.woff2') format('woff2'),
+        url('../fonts/WorkSans-Medium.woff') format('woff');
     font-weight: 500;
     font-style: normal;
     font-display: swap;
 }
 
 @font-face {
-    font-family: 'Jost';
-    src: local('Jost Regular'), local('Jost-Regular'),
-        url('../fonts/Regular.woff2') format('woff2'),
-        url('../fonts/Regular.woff') format('woff');
+    font-family: 'Work Sans';
+    src: local('Work Sans Regular'), local('WorkSans-Regular'),
+        url('../fonts/WorkSans-Regular.woff2') format('woff2'),
+        url('../fonts/WorkSans-Regular.woff') format('woff');
     font-weight: normal;
     font-style: normal;
     font-display: swap;
 }
 
 @font-face {
-    font-family: 'Jost';
-    src: local('Jost Medium Italic'), local('Jost-MediumItalic'),
-        url('../fonts/MediumItalic.woff2') format('woff2'),
-        url('../fonts/MediumItalic.woff') format('woff');
+    font-family: 'Work Sans';
+    src: local('Work Sans Medium Italic'), local('WorkSans-MediumItalic'),
+        url('../fonts/WorkSans-MediumItalic.woff2') format('woff2'),
+        url('../fonts/WorkSans-MediumItalic.woff') format('woff');
     font-weight: 500;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Work Sans';
+    src: local('Work Sans Bold'), local('WorkSans-Bold'),
+        url('../fonts/WorkSans-Bold.woff2') format('woff2'),
+        url('../fonts/WorkSans-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Work Sans';
+    src: local('Work Sans Light Italic'), local('WorkSans-LightItalic'),
+        url('../fonts/WorkSans-LightItalic.woff2') format('woff2'),
+        url('../fonts/WorkSans-LightItalic.woff') format('woff');
+    font-weight: 300;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Work Sans';
+    src: local('Work Sans Black Italic'), local('WorkSans-BlackItalic'),
+        url('../fonts/WorkSans-BlackItalic.woff2') format('woff2'),
+        url('../fonts/WorkSans-BlackItalic.woff') format('woff');
+    font-weight: 900;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Work Sans';
+    src: local('Work Sans ExtraBold Italic'), local('WorkSans-ExtraBoldItalic'),
+        url('../fonts/WorkSans-ExtraBoldItalic.woff2') format('woff2'),
+        url('../fonts/WorkSans-ExtraBoldItalic.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Work Sans';
+    src: local('Work Sans SemiBold'), local('WorkSans-SemiBold'),
+        url('../fonts/WorkSans-SemiBold.woff2') format('woff2'),
+        url('../fonts/WorkSans-SemiBold.woff') format('woff');
+    font-weig../fonts/ht: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Work Sans';
+    src: local('Work Sans SemiBold Italic'), local('WorkSans-SemiBoldItalic'),
+        url('../fonts/WorkSans-SemiBoldItalic.woff2') format('woff2'),
+        url('../fonts/WorkSans-SemiBoldItalic.woff') format('woff');
+    font-weight: 600;
     font-style: italic;
     font-display: swap;
 }

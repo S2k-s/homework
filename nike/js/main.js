@@ -1,20 +1,29 @@
 (function () {
-    
+
     // =====бургер меню====
 
     const burger = document.querySelector('.burger-icon');
     const sidebar = document.querySelector('.sidebar');
-    const closeBtn = document.getElementById('closeBtn');
     const sidebarLinks = sidebar.querySelectorAll('a');
+
+    function openSidebar() {
+        burger.classList.add('active');
+        sidebar.classList.add('active');
+        document.body.style.overflow = 'hidden';
+    }
 
     function closeSidebar() {
         burger.classList.remove('active');
         sidebar.classList.remove('active');
+        document.body.style.overflow = 'visible';
     }
 
     burger.addEventListener('click', () => {
-        burger.classList.toggle('active');
-        sidebar.classList.toggle('active');
+        if (sidebar.classList.contains('active')) {
+            closeSidebar();
+        } else {
+            openSidebar();
+        }
     });
 
     sidebarLinks.forEach(link => {
@@ -83,15 +92,35 @@
         }
     });
 
-    // ========
+    // ===слайдер=====
 
 
     const swiper = new Swiper('.swiper', {
-        slidesPerView: 3,
-        spaceBetween: 40,
+        slidesPerView: 1,
+        spaceBetween: 30,
         navigation: {
             nextEl: '.slider__next',
             prevEl: '.slider__prev',
+        },
+
+        breakpoints: {
+            301: {
+                slidesPerView: 1,
+                spaceBetween: 20,
+            },
+            501: {
+                slidesPerView: 1.5,
+                spaceBetween: 30,
+            },
+            901: {
+                slidesPerView: 2,
+                spaceBetween: 30,
+            },
+            1201: {
+                slidesPerView: 3,
+                spaceBetween: 40,
+            },
+
         },
     });
 
