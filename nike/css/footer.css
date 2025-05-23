@@ -112,19 +112,22 @@
     gap: 50px;
 }
 
-.footer-body__list {}
+.footer-body__nav {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
 
-.footer-body__list--long {
+.footer-body__nav--long {
     grid-row: 1 / -1;
     grid-column: 3 / 4;
 }
 
-.footer-body__info-title {
+.footer-body__nav-title {
     font-style: italic;
     font-size: 20px;
     font-weight: 600;
     line-height: 24px;
-    margin-bottom: 24px;
 }
 
 .footer-body__item {

@@ -1019,11 +1019,13 @@
         grid-template: repeat(3, auto) / repeat(2, 1fr);
     }
 
+    
+    .footer-body__nav-title,
     .footer-body__list {
         text-align: center;
     }
 
-    .footer-body__list--long {
+    .footer-body__nav--long {
         grid-row: 3 / 4;
         grid-column: 1 / -1;
         text-align: center;
@@ -1116,16 +1118,16 @@
         gap: 30px;
     }
 
+    .footer-body__nav {
+        gap: 12px;
+    }
+
     .footer-body__list {
         text-align: center;
     }
 
-    .footer-body__list--long {
+    .footer-body__nav--long {
         text-align: center;
-    }
-
-    .footer-body__info-title {
-        margin-bottom: 12px;
     }
 
     .footer-body__item {
