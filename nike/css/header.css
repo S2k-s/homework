@@ -242,6 +242,7 @@
     font-weight: 800;
     font-style: italic;
     margin-bottom: 32px;
+    line-height: 48px;
 }
 
 .hero__price {
@@ -308,6 +309,7 @@
 .hero__shop {}
 
 .hero__button {
+    font-size: 12px;
     max-width: 131px;
     max-height: 36px;
 }
