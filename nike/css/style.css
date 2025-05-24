@@ -662,7 +662,7 @@
     /* ==================== */
 
     .footer__top-list {
-        justify-content: center;
+        justify-content: start;
     }
 
     /* ==================== */
@@ -955,9 +955,10 @@
     /* ==================== */
 
     .sales__img {
-        font-size: 24px;
-        line-height: 24px;
+        font-size: 40px;
+        line-height: 40px;
         font-weight: 400;
+        margin: 0 20px;
     }
 
     /* ===================== */
@@ -1064,9 +1065,8 @@
         margin-bottom: 30px;
     }
 
-    .sales__img {
-        font-size: 12px;
-        line-height: 12px;
+    .sales__images {
+        flex-direction: column;
     }
 
     /* ============================= */

@@ -20,9 +20,15 @@
     align-items: center;
 }
 
-.footer__top-item img {
+.footer__top-img {
+    display: flex;
+    justify-content: start;
+    align-items: center;
     max-width: 24px;
     max-height: 24px;
+}
+.footer__top-img {
+
 }
 
 .footer__top-text {
