@@ -27,6 +27,7 @@ html {
 
 .container {
     margin: 0 auto;
+    max-width: 1280px;
     padding: 0 80px;
     height: 100%;
 }
@@ -41,10 +42,14 @@ html {
     margin-bottom: 180px;
 }
 
-.main__favorite,
+.main__favorite {
+    margin-bottom: 240px;
+}
+
 .main__logos,
 .main__nikeclub {
-    margin-bottom: 240px;
+    margin: 0 auto 240px;
+    max-width: 1440px;
 }
 
 .title {
