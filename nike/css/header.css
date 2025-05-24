@@ -234,6 +234,8 @@
 }
 
 .hero__info {
+    display: flex;
+    flex-direction: column;
     gap: 32px;
     max-width: 490px;
 }
@@ -267,19 +269,17 @@
 }
 
 .hero__size-button {
+    display: flex;
+    align-items: center;
+    gap: 5px;
     cursor: pointer;
     border-radius: 8px;
-}
-
-.hero__size-img {
-    position: absolute;
-    bottom: 20px;
 }
 
 .hero__dropdown {
     position: absolute;
     top: 90%;
-    left: 36px;
+    left: 40px;
     background: transparent;
     opacity: 0;
     visibility: hidden;
@@ -306,7 +306,12 @@
 
 .hero__size {}
 
-.hero__shop {}
+.hero__shop {
+    max-width: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 
 .hero__button {
     font-size: 12px;

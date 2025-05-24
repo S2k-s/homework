@@ -914,7 +914,27 @@
         font-size: 24px;
     }
 
-    /* =============== */
+    /* ========================== */
+
+    .hero__info {
+        align-items: center;
+    }
+
+    .hero__price {
+        align-items: center;
+    }
+
+    .hero__size-selector {
+        grid-column: 3 / 4;
+    }
+
+    .hero__shop {
+        grid-row: 1 / 2;
+        grid-column: 2 / 3;
+        align-items: end;
+    }
+
+    /* ========================== */
 
     .slider {
         flex-direction: column;
