@@ -661,12 +661,6 @@
 
     /* ==================== */
 
-    .footer__top-list {
-        justify-content: start;
-    }
-
-    /* ==================== */
-
     .footer-body {
         flex-direction: column;
         align-items: center;
