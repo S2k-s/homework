@@ -58,7 +58,7 @@ console.log(`Скидка ${RESULT}%`);
 
 // const USER_NAME = prompt('Введите имя пользователя', 'Имя');
 
-// const PASSWORD = +prompt('Введите пороль пользователя', 'Пороль');
+// const PASSWORD = +prompt('Введите пароль пользователя', 'Пароль');
 
 // if ((USER_NAME === 'user' || USER_NAME === 'admin') && PASSWORD === 123456) {
 //     alert('Доступ разрешён')
@@ -109,7 +109,7 @@ console.log(`Скидка ${RESULT}%`);
 const WEIGHT = +prompt('Введите вес посылки(кг)', 0)
 const DELIVERY_TYPE = prompt('Тип доставки: Стандарт, Экспресс, Премиум', 'Стандарт')
 
-if(WEIGHT <= 0 ) {
+if(WEIGHT <= 0 || isNaN(WEIGHT) {
     alert('Некорректный вес посылки')
 }
 if(DELIVERY_TYPE !== 'Стандарт' && DELIVERY_TYPE !== 'Экспресс' && DELIVERY_TYPE !== 'Премиум') {
