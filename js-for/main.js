@@ -24,13 +24,13 @@
 // *Задача 3.
 // Выведите в консоль шахматную доску размером 8x8, где символы чередуются (например, # и пробел). Начинайте с # в первой ячейке первой строки.
 
-var number = 8
-var board = ""
+let number = 8
+let board = ""
 
-for (var i = 1; i <= number; i++) {
-  var row = ""
+for (let i = 1; i <= number; i++) {
+  let row = ""
   
-  for (var j = 1; j <= number; j++) {
+  for (let j = 1; j <= number; j++) {
     if ((i + j) % 2 === 0) {
       row += 'Ч ';
     } else {
