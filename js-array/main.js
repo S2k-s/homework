@@ -43,15 +43,18 @@ getAllAdmins(users);
 // Функция, которая возвращает первые n элементов
 function first(array, n) {
 	if (n === 0) {
-		return [];
+		console.log([]);
+		return;
 	}
 
 	if (n === undefined) {
-		return [array[0]];
+		console.log([array[0]]);
+		return;
 	}
 
 	if (n > array.length) {
-		return `Число ${n} не может быть больше длины массива ${array.length}`;
+		console.error(`Число ${n} не может быть больше длины массива ${array.length}`)
+		return ;
 	}
 
 	let result = [];
@@ -59,7 +62,6 @@ function first(array, n) {
 	for (let i = 0; i < n; i++) {
 		result.push(array[i]);
 	}
-	return result;
+	console.log(result);
 }
-
-console.log(first(users, 7));
+first(users, 0)
