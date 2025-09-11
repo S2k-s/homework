@@ -49,7 +49,6 @@ function bmi(weight, height) {
 
 // Например, [1, 2, 2]он должен вернуться, 9 
 
-function squareSum(numbers){
-    let a = numbers.reduce((acc, num) => acc + num ** 2, 0); 
-    return a;
+function squareSum(numbers){ 
+    return numbers.reduce((acc, num) => acc + num ** 2, 0);;
 }
