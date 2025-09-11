@@ -50,7 +50,6 @@ const GET_TIME_OF_DAY = (time) => {
 		return "Некорректное время!";
 	}
 };
-console.log(GET_TIME_OF_DAY(9));
 
 // Задача 4.
 // Напишите функцию findFirstEven, которая принимает два числа start и end и находит первое чётное число в указанном диапазоне.
@@ -68,4 +67,3 @@ const FIND_FIRST_EVEN = (start, end) => {
 	}
 	return "Чётных чисел нет";
 };
-console.log(FIND_FIRST_EVEN(1, 10))
