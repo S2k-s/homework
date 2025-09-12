@@ -5,7 +5,7 @@
 //     if(i % 4 === 0){
 //         continue;
 //     }
-//     console.log(i)
+//     return i;
 // }
 
 
