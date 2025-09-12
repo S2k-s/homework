@@ -14,7 +14,6 @@ function calculateFinalPrice(price, discount, tax) {
 	let sum = priceSum + taxSum;
 	return sum;
 }
-console.log(calculateFinalPrice(200, 20, 0.2));
 
 // Задача 2.
 // Напишите функцию checkAccess, которая принимает имя пользователя и пароль.
@@ -27,7 +26,6 @@ const CHECK_ACCESS = (user, password) => {
 		return "Доступ запрещен";
 	}
 };
-console.log(CHECK_ACCESS("admin", "123456"));
 
 // Задача 3.
 // Напишите функцию getTimeOfDay, которая принимает текущее время (число от 0 до 23) и возвращает строку:
