@@ -48,26 +48,6 @@ const deleteTodoById = (todos, todoId) => {
 // Создаем функцию createTodoElement(text), которая будет создавать todo в виде разметки
 // Создаем функцию handleCreateTodo(todos, text), которая будет вызывать createTodo и createTodoElement
 
-// const form = document.querySelector('.form');
-// const input = document.querySelector('.input');
-// const todolist = document.querySelector('.todos');
-
-// const createTodoElement = (text) => {
-// 	const element = document.createElement('li');
-// 	element.classList.add('todo');
-
-// 	element.innerHTML =
-// 		`<div class="todo-text">${text[todoKeys.id]}: ${text[todoKeys.text]}</div>
-// 				<div class="todo-actions">
-// 				<button class="button-complete button">&#10004;</button>
-// 				<button class="button-delete button">&#10006;</button>
-// 			</div>
-//       `;
-
-// 	todos1.append(element);
-
-// };
-
 const form = document.querySelector('.form');
 const input = document.querySelector('.input');
 const todos1 = document.querySelector('.todos');
